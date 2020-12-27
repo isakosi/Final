@@ -29,7 +29,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     }
     
-    
     @IBAction func AddWord(_ sender: Any) {
         if input.text != "" {
             words.append(input.text!)
@@ -113,9 +112,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                     self.showAlert("Translation", translation!)
                 }
                 return
-                
             }
-                
         }
     }
 }
